@@ -9,7 +9,7 @@
     padding: 0.1rem 0.5rem;
     border-radius: 50px;
     width: fit-content;
-    margin: 0.5rem auto;
+    margin: 0.9rem auto;
     background-color: var(--primary-medium) !important;
 }
 
@@ -27,6 +27,11 @@
     overflow-x: auto;
     justify-content: center;
     gap: 1rem;
+}
+
+.nav-link.active {
+    color: var(--secondary) !important;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {

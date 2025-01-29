@@ -3,14 +3,14 @@
 :root {
     --primary-dark: #0a192f;  /* Azul oscuro profundo */
     --primary-medium: #112240; /* Azul medio */
-    --primary-light: #233554;  /* Azul más claro */
+    --primary-light: #3f567d;  /* Azul más claro */
     --secondary: #64ffda;  /* Verde neón para detalles */
     --text-light: #ccd6f6;  /* Azul grisáceo para el texto */
 }
 
 
 body {
-    background-color: var(--primary-dark);
+    background: linear-gradient(to bottom, var(--primary-dark), #0d1b2a);
     font-family: 'Inter', sans-serif; 
 }
 
