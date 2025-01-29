@@ -1,0 +1,36 @@
+.navbar {
+    background-color: var(--primary-dark) !important;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.navbar.scrolled {
+    padding: 0.1rem 0.5rem;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 0.5rem auto;
+    background-color: var(--primary-medium) !important;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #6dd5ed !important;
+}
+
+.navbar-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        gap: 0.5rem;
+    }
+}
