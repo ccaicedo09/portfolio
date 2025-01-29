@@ -1,0 +1,34 @@
+.card {
+    background-color: var(--primary-medium) !important;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: var(--text-light);
+}
+
+.card-text {
+    color: var(--text-light) !important;
+    opacity: 0.8;
+}
+
+.badge {
+    background-color: var(--secondary) !important;
+    color: var(--primary-medium);
+}
+
+.btn-outline-light {
+    color: var(--secondary);
+    border-color: var(--secondary);
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--text-dark);
+}

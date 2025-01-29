@@ -1,0 +1,26 @@
+<div class="container py-5">
+    <h2 class="text-white fw-bold mb-4"><i class="bi bi-code-slash"></i> Mis    Proyectos</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4" *ngFor="let project of projects">
+        <div class="card bg-dark text-white border-0 rounded-4 overflow-hidden">
+          <img [src]="project.image" class="card-img-top" alt="{{ project.title }}">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">{{ project.title }}</h5>
+            <p class="card-text text-secondary">{{ project.description }}</p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-secondary" *ngFor="let tech of project.technologies">{{ tech }}</span>
+            </div>
+            <div class="d-flex gap-2">
+              <a [href]="project.codeLink" target="_blank" class="btn btn-outline-light" *ngIf="project.codeLink">
+                <i class="bi bi-github"></i> Código
+              </a>
+              <a [href]="project.demoLink" target="_blank" class="btn btn-outline-light" *ngIf="project.demoLink">
+                <i class="bi bi-box-arrow-up-right"></i> Visitar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
