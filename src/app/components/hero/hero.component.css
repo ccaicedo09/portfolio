@@ -38,16 +38,3 @@
     object-fit: cover;
     border-radius: 20px;
 }
-
-.btn-outline-secondary-custom {
-    color: var(--secondary);
-    border-color: var(--secondary);
-    background: transparent;
-    transition: all 0.3s ease;
-}
-
-.btn-outline-secondary-custom:hover {
-    color: var(--primary-dark);
-    background-color: var(--secondary);
-    border-color: var(--secondary);
-}

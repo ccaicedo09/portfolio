@@ -14,3 +14,20 @@ body {
     font-family: 'Inter', sans-serif; 
 }
 
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.btn-outline-secondary-custom {
+    color: var(--secondary);
+    border-color: var(--secondary);
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-secondary-custom:hover {
+    color: var(--primary-dark);
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
